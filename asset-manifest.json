@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/congenial-octo-invention/static/css/main.5b730c45.css",
-    "main.js": "/congenial-octo-invention/static/js/main.15e999a5.js",
+    "main.js": "/congenial-octo-invention/static/js/main.d840df5d.js",
     "index.html": "/congenial-octo-invention/index.html",
     "main.5b730c45.css.map": "/congenial-octo-invention/static/css/main.5b730c45.css.map",
-    "main.15e999a5.js.map": "/congenial-octo-invention/static/js/main.15e999a5.js.map"
+    "main.d840df5d.js.map": "/congenial-octo-invention/static/js/main.d840df5d.js.map"
   },
   "entrypoints": [
     "static/css/main.5b730c45.css",
-    "static/js/main.15e999a5.js"
+    "static/js/main.d840df5d.js"
   ]
 }
