@@ -1,23 +1,23 @@
 export const BoxData = [
     {
         id: '1',
-        img: 'https://lh3.googleusercontent.com/8i47zYp_vOf0P98U6FfyN-hWGN_7l5DxQ8_EB2mIWzclRCiFK_hw9Mp-GRPllS46YT-Wy1RfRJgKaIJ9-sKQVT_echnjXyCUWOcH=w600',
-        text: 'Text'
+        img: './img/fire-rare.png',
+        text: 'Fire Rare'
     },
     {
         id: '2',
-        img: 'https://lh3.googleusercontent.com/8i47zYp_vOf0P98U6FfyN-hWGN_7l5DxQ8_EB2mIWzclRCiFK_hw9Mp-GRPllS46YT-Wy1RfRJgKaIJ9-sKQVT_echnjXyCUWOcH=w600',
-        text: 'Text'
+        img: './img/stone-rare.png',
+        text: 'Stone Rare'
     },
     {
         id: '3',
-        img: 'https://lh3.googleusercontent.com/8i47zYp_vOf0P98U6FfyN-hWGN_7l5DxQ8_EB2mIWzclRCiFK_hw9Mp-GRPllS46YT-Wy1RfRJgKaIJ9-sKQVT_echnjXyCUWOcH=w600',
-        text: 'Text'
+        img: './img/water-rare.png',
+        text: 'Water Rare'
     },
     {
         id: '4',
-        img: 'https://lh3.googleusercontent.com/8i47zYp_vOf0P98U6FfyN-hWGN_7l5DxQ8_EB2mIWzclRCiFK_hw9Mp-GRPllS46YT-Wy1RfRJgKaIJ9-sKQVT_echnjXyCUWOcH=w600',
-        text: 'Text'
+        img: './img/wind-rare.png',
+        text: 'Wind Rare'
     }
 ];
 
