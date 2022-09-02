@@ -25,18 +25,18 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase fw-bold">
                         <li className="nav-item ">
-                            <Link to="play" smooth={true} duration={500} className="nav-link active" style={{ color: '#98ff98', cursor: 'pointer' }}>
-                                Play
+                            <Link to="info" smooth={true} duration={500} className="nav-link active" style={{ color: '#98ff98', cursor: 'pointer' }}>
+                                Monsters
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="info" smooth={true} duration={500} className="nav-link " style={{ color: '#98ff98', cursor: 'pointer' }}>
-                                Info
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="about" smooth={true} duration={500} className="nav-link" style={{ color: '#98ff98', cursor: 'pointer' }}>
+                            <Link to="about" smooth={true} duration={500} className="nav-link " style={{ color: '#98ff98', cursor: 'pointer' }}>
                                 About
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="play" smooth={true} duration={500} className="nav-link" style={{ color: '#98ff98', cursor: 'pointer' }}>
+                                Play
                             </Link>
                         </li>
                         <li className="nav-item">

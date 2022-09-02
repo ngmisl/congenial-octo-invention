@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import { BoxData, TextBoxData } from './data/DummyData';
 import React from 'react';
 import UnityDummy from './components/UnityDummy';
-import { Link } from 'react-scroll';
 
 function App() {
     return (
@@ -16,36 +15,24 @@ function App() {
             <NavBar />
             <div className="container">
                 <div className="row py-2 py-lg-5">
-                    <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-between flex-column py-5">
-                        <h1>Welcome to Mint World!</h1>
-                        <h2>NFT powered, 2d Play and Earn Catcher!</h2>
+                    <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+                        <p className="main-text d-flex justify-content-center">
+                            <br></br>
+                            Welcome to <br></br>Mint World
+                        </p>
+                        <h3 className="d-flex justify-content-center">Catch, Fight, and Collect Monsters!</h3>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                        <img src="./logo.png" className="img-fluid" alt="" />
-                    </div>
-                </div>
-                <div className="row py-2 py-lg-5">
-                    <div className="col-lg-12 d-flex justify-content-center ">
-                        <Link to="play" className="text-decoration-none fs-3" style={{ color: '#98ff98', cursor: 'pointer' }}>
-                            Play
-                        </Link>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container-fluid">
-                <div className="row py-2 py-lg-5 play">
-                    <div className="col-lg-12 py-4 d-flex justify-content-center">
-                        <h1>MintWorld v0 Testnet (Mumbai)</h1>
-                    </div>
-                    <div className="col-lg-12 py-4 d-flex justify-content-center">
-                        <UnityDummy />
+                    <div className="col-lg-6 col-md-6 col-sm-12 main-image">
+                        <img src="./logo.png" className="img-fluid w-75" alt="" />
                     </div>
                 </div>
             </div>
 
             <div className="container">
                 <div className="row py-2 py-lg-5 info">
+                    <div className="col-lg-12 py-4 d-flex justify-content-center">
+                        <h1 className="main-font">Monsters</h1>
+                    </div>
                     {BoxData.map((item, index) => {
                         return (
                             <div key={index} className="col-lg-3 d-flex justify-content-center">
@@ -54,10 +41,40 @@ function App() {
                         );
                     })}
                 </div>
-                <div className="row py-2 py-lg-5 about">
+            </div>
+
+            <div className="container">
+                <div className="center-text">
+                    <h3 className="main-font about">Start your Journey</h3>
+                </div>
+                <div className="row py-2 py-lg-5">
+                    <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+                        <p className="about-p">Claim your free daily Monster NFT via the Mint World Faucet Game, if you're lucky you can catch one of the four shiny monsters</p>
+                        <p className="about-p">Release ten common Monsters to receive one MintWorldGame Coin</p>
+                        <p className="about-p">Be one of the very first MintPlayers to unlock new content</p>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 main-image">
+                        <img src="./img/dragon.gif" className="img-fluid w-50" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                <div className="row py-2 py-lg-5 play">
+                    <div className="col-lg-12 py-4 d-flex justify-content-center">
+                        <h2 className="main-font">Play MintWorld v0 (Polygon)</h2>
+                    </div>
+                    <div className="col-lg-12 py-4 d-flex justify-content-center">
+                        <UnityDummy />
+                    </div>
+                </div>
+            </div>
+
+            <div className="container">
+                <div className="row py-2 py-lg-5 justify-content-center">
                     {TextBoxData.map((item, index) => {
                         return (
-                            <div key={index} className="col-lg-3 d-flex justify-content-center">
+                            <div key={index} className="col-lg-3 d-flex justify-content-center ">
                                 <TextBox Title={item.title} Desc={item.desc} />
                             </div>
                         );
@@ -67,7 +84,7 @@ function App() {
                     <div className="col-lg-12 d-flex justify-content-center align-items-center">
                         <div className="mb-4 d-flex justify-content-between">
                             <div className="round d-flex justify-content-center align-items-center me-5 p-2">
-                                <a href="https://discord.com" target="_blank" className="social-link" rel="noreferrer">
+                                <a href="https://discord.gg/vkjrn2a84R" target="_blank" className="social-link" rel="noreferrer">
                                     <BsDiscord size={30} />
                                 </a>
                             </div>
@@ -77,7 +94,7 @@ function App() {
                                 </a>
                             </div>
                             <div className="round d-flex justify-content-center align-items-center p-2">
-                                <a href="https://telegram.com" target="_blank" className="social-link" rel="noreferrer">
+                                <a href="https://t.me/mintworldgame" target="_blank" className="social-link" rel="noreferrer">
                                     <BsTelegram size={30} />
                                 </a>
                             </div>

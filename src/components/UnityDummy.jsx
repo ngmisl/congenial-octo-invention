@@ -3,10 +3,10 @@ import { useState } from 'react';
 import Unity, { UnityContext } from 'react-unity-webgl';
 
 const unityContext = new UnityContext({
-    loaderUrl: 'build/Test3.loader.js',
-    dataUrl: 'build/Test3.data',
-    frameworkUrl: 'build/Test3.framework.js',
-    codeUrl: 'build/Test3.wasm'
+    loaderUrl: 'build/FinalTest.loader.js',
+    dataUrl: 'build/FinalTest.data.br',
+    frameworkUrl: 'build/FinalTest.framework.js.br',
+    codeUrl: 'build/FinalTest.wasm.br'
 });
 
 const UnityDummy = () => {
